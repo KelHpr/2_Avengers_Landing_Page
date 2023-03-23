@@ -218,6 +218,38 @@ body {
     color: var(--color-text-light);
 }
 
+.big_name {
+    grid-column: 1/17;
+    grid-row: 15/20;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    /* background: #0004; */
+}
+
+.big_text_name {
+    font-size: 5rem;
+    color: var(--color-text-light);
+    font-family: var(--font-substandar);
+}
+
+.big_lastname {
+    grid-column: 1/19;
+    grid-row: 20/26;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    background: linear-gradient(90deg, #F0A529, #FB8617);
+}
+
+.big_text_lastname {
+    font-size: 6rem;
+    color: var(--color-text-light);
+    font-family: var(--font-thin);
+}
+
 /* --- --- --- RIGHT CONTAINER --- --- --- */
 
 .right_container {
