@@ -283,6 +283,20 @@ body {
     font-family: var(--font-substandar);
 }
 
+.movies_number {
+    grid-column: 37/40;
+    grid-row: 28/30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movies {
+    color: var(--color-text-light);
+    font-size: 1rem;
+    font-family: var(--font-standar);
+}
+
 /* --- --- --- RIGHT CONTAINER --- --- --- */
 
 .right_container {
