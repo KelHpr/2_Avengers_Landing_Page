@@ -166,7 +166,17 @@ body {
 }
 
 .subnav {
+    grid-column: 12/26;
+    grid-row: 4/6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.link_subnav {
+    color: var(--color-text-light);
+    font-size: 1.2rem;
+    margin: 40px;
 }
 
 /* --- --- --- RIGHT CONTAINER --- --- --- */
