@@ -268,6 +268,21 @@ body {
     background: #fff3;
 }
 
+.number_six {
+    grid-column: 36/40;
+    grid-row: 19/ 27;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0004;
+}
+
+.six {
+    color:  var(--color-text-light);
+    font-size: 15rem;
+    font-family: var(--font-substandar);
+}
+
 /* --- --- --- RIGHT CONTAINER --- --- --- */
 
 .right_container {
