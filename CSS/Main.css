@@ -250,6 +250,24 @@ body {
     font-family: var(--font-thin);
 }
 
+.points {
+    grid-column: 39/-1;
+    grid-row: 1/-1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background: #0004; */
+}
+
+.point {
+    width: 3px;
+    height: 3px;
+    border-radius: 50px;
+    margin: 7px;
+    background: #fff3;
+}
+
 /* --- --- --- RIGHT CONTAINER --- --- --- */
 
 .right_container {
