@@ -165,6 +165,10 @@ body {
     border-bottom: 1px solid var(--soft-border);
 }
 
+.subnav {
+
+}
+
 /* --- --- --- RIGHT CONTAINER --- --- --- */
 
 .right_container {
@@ -186,7 +190,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid var(--soft-border);
+    border-top: 1px solid var(--soft-border);
 }
 
 .icon_angle {
