@@ -297,6 +297,45 @@ body {
     font-family: var(--font-standar);
 }
 
+.buttons {
+    grid-column: 30/35;
+    grid-row: 28/30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -65px;
+    /* background: #0005; */
+}
+
+.btn_search, .btn_share {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7px;
+}
+
+.btn_search {
+    background: linear-gradient(130deg, #F0A529, #FB8617);
+}
+
+.btn_share {
+    background: #fff;
+}
+
+.icon_search {
+    font-size: 1rem;
+    color: var(--color-text-light);
+}
+
+.icon_share {
+    font-size: 1rem;
+    color: var(--color-text-dark);
+}
+
 /* --- --- --- RIGHT CONTAINER --- --- --- */
 
 .right_container {
