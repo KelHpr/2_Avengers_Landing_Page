@@ -152,7 +152,7 @@ body {
     display: grid;
     grid-template-columns: repeat(40, 1fr);
     grid-template-rows: repeat(30, 1fr);
-    background: #0003;
+    /* background: #0003; */
 }
 
 .her_name {
@@ -274,7 +274,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #0004;
+    /* background: #0004; */
 }
 
 .six {
